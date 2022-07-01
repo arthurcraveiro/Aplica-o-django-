@@ -7,4 +7,4 @@ RUN pip3 install django
 
 COPY . . 
 
-CMD ["python3", "manage.py", "runserver"]
+CMD ["python3", "manage.py", "runserver", "80"]
