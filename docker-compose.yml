@@ -7,6 +7,5 @@ services:
     build:  . 
     hostname:  web 
     restart:  always 
-    ports:
-      - "80:80"
+    network_mode:  "host"
 

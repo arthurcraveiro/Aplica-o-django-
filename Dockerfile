@@ -7,4 +7,6 @@ RUN pip3 install django
 
 COPY . . 
 
+EXPOSE 80
+
 CMD ["python3", "manage.py", "runserver", "80"]
